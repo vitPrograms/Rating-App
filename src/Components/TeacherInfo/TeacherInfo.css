@@ -1,0 +1,39 @@
+.teacher-container {
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.content-teacher-card {
+    display: flex;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    margin-top: 40px;
+}
+
+.teacher-image-container {
+    position: relative;
+    display: flex;
+    width: 40%;
+    height: 500px;
+    overflow: hidden;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.teacher-image {
+    object-fit: cover;
+}
+
+.content-teacher-card h1 {
+    display: block;
+    position: relative;
+    margin-top: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    height: fit-content;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}

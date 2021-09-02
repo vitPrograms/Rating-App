@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button, a{
+    color:white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 1000;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10px;
+    background-color: rgb(0, 2, 29);
+}
+
+.list {
+    list-style: none;
+}
+
+.logo {
+    color: white;
+}
+
+.list-item {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.search-field, form button[type='submit'] {
+    height: 20px;
+}
+
+form button[type='submit'] {
+    background-color: none;
+    outline: none;
+    color:white;
+    border: 1px solid rgb(0, 5, 77)
+}
+
+.list-item a {
+    border: none;
+    outline: none;
+    text-decoration: none;
+    color: white;
+    background-color: none;
+    cursor: pointer;
+    padding: 0 20px;
+    transition: .4s ease;
+    border-radius: 5px;
+}
+
+.list-item a:hover {
+    background-color: white;
+    color: black;
+}

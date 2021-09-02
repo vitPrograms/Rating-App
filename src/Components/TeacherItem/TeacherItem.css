@@ -1,0 +1,51 @@
+.container-item {
+    display: inline-block;
+    background-color: white;
+    border: 2px gray solid;
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 40px;
+    overflow: hidden;
+    transition: linear .2s;
+    user-select: none;
+}
+
+.image-container {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 190px;
+    max-height: 20%;
+    overflow: hidden;
+}
+
+.image {
+    display: block;
+    position: relative;
+    object-fit: cover;
+}
+
+.container-item:hover {
+    cursor: pointer;
+    transform: translateY(-20px);
+}
+
+.fullName {
+    position: relative;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.rating {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin-top: 40px;
+    text-align: center;
+    background-color: black;
+    color:white;
+}
